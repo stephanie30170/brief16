@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 780px){
+body{
+    background-color: black;/*noir*/
+  }
+.titre{
+    display: flex;
+    /*flex-flow: column wrap;*/
+    flex-flow : row wrap;
+    justify-content: space-around;
+    
+
+  }
+h1{
+    flex: 0 1 20%;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    margin: 10px;
+    font-family: Risque;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.clip{
+    width: 100%;
+    opacity: 0.3;
+}
+
+.mix {
+    position: absolute;
+    top: 140px;
+    width: 30%;
+    border: 2px solid rgb(206, 14, 14);
+}
+.styled {
+    margin-top: 20px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+.footer{
+    padding: 10px;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #E5E5E5;
+}
+  }
+/*@media screen and (max-width:700px){*/
+/*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 780px*/
+@media screen and (min-width:781px){
+ 
+    body{
+        background-color: black;/*noir*/
+      }
+    .titre{
+        display: flex;
+        /*flex-flow: column wrap;*/
+        flex-flow : row wrap;
+        justify-content: space-around;
+        
+    
+      }
+    h1{
+        flex: 0 1 20%;
+        background-color: rgb(0, 0, 0);
+        height: 50px;
+        margin: 10px;
+        font-family: Risque;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 42px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .clip{
+        width: 90%;
+        opacity: 0.3;
+    }
+    
+    .mix {
+        position: absolute;
+        top: 140px;
+        width: 30%;
+        border: 2px solid rgb(206, 14, 14);
+    }
+    .styled {
+        position: absolute;
+        top: 510px;
+        margin-top: 20px;
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: rgba(220, 0, 0, 1);
+        background-image: linear-gradient(to top left,
+                                          rgba(0, 0, 0, .2),
+                                          rgba(0, 0, 0, .2) 30%,
+                                          rgba(0, 0, 0, 0));
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    }
+    
+    .styled:hover {
+        background-color: rgba(255, 0, 0, 1);
+    }
+    
+    .styled:active {
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                    inset 2px 2px 3px rgba(0, 0, 0, .6);
+    }
+    
+    
+    .footer{
+        padding: 10px;
+        margin-top: 20px;
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 14px;
+        text-align: center;
+        color: #E5E5E5;
+    }
+
+
+}
