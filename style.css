@@ -1,0 +1,40 @@
+body{
+    background-color: #A2D5F2;
+}
+.container{
+    display:flex;
+    flex-flow : column wrap;
+    align-items: center;
+}
+.tete{
+    align-items: center;
+    
+}
+.titre{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color:#383838;
+}
+.texte{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color:#383838;
+}
+
+
+.bouton {
+        margin-top: 100px;
+        width:150px;
+        height:150px;
+        background:#ffc93c;
+        box-shadow:2px 2px 8px #aaa;
+        font:bold 40px Arial;
+        border-radius:50%;
+        columns: #383838;
+}
