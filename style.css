@@ -26,8 +26,9 @@ body{
     font-size: 24px;
     color:#383838;
 }
-
-
+a{
+    color:#383838;
+}
 .bouton {
         width:150px;
         height:150px;
