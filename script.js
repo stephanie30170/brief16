@@ -26,8 +26,7 @@ var timerId = setInterval(countdown, 1000);
 
     else if (ex == 13){
       document.getElementById(ex).style.display = "none";
-      //document.getElementById("fin").style.display = "block";
-      location.assign("/bravo.html");
+      location.assign("https://github.com/stephanie30170/brief16/blob/main/bravo.html");
       document.getElementById("btnpause").style.display = "none";
       document.getElementById("timer").style.display = "none";
       document.getElementById("pause").style.display = "none";
